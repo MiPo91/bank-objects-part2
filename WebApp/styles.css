@@ -1,0 +1,24 @@
+body {
+    width:  1024px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+}
+
+#control-panel {
+    overflow: hidden;
+    list-style: none;
+}
+
+#control-panel li {
+    float:  left;
+    width:  33%;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#control-panel li:hover {
+    cursor: pointer;
+}
