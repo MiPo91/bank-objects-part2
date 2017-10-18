@@ -1,24 +1,29 @@
-body {
-    width:  1024px;
-    border: 1px solid #ccc;
-    margin: 0 auto;
+#customerId {
+    display:    none;
 }
 
-#control-panel {
-    overflow: hidden;
-    list-style: none;
+ul span {
+    width: 200px;
 }
 
-#control-panel li {
-    float:  left;
-    width:  33%;
-    height: 40px;
-    line-height: 40px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    text-align: center;
+ul button {
+    margin-right: 5px;
 }
 
-#control-panel li:hover {
-    cursor: pointer;
+#content-popup div, #content-popup button {
+    margin-right: 5px;
+}
+
+#content-popup {
+    position: fixed;
+    top:    50%;
+    left:   50%;
+    transform: translate(-50%, -50%);
+    background: #f5f5f5;
+    display:    none;
+}
+
+.show {
+    display: block!important;
+    padding: 0px 10px 10px 10px;
 }

@@ -3,20 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Index</title>
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
     <link rel="stylesheet" href="styles.css">
     <script>
         var ekoodi = {};
     </script>
-    <script src="banks.js"></script>
-    <script src="customers.js"></script>
-    <script src="scripts.js"></script>
+    <script src="bank.js"></script>
+    <script src="customer.js"></script>
+    <script src="bank-account.js"></script>
+    <script src="bank-account-transaction.js"></script>
 </head>
 <body>
-<ul id="control-panel">
-    <li>Show Banks</li>
-    <li>Show Users</li>
-    <li>Show User Information & Transactions</li>
-</ul>
-<p id="content-listed"></p>
+<main class="content-wrapper ">
+    <h1 class="mdc-typography--headline">Bank Objects - Part 2: Web App</h1>
+
+    <section id="control-panel">
+        <button onclick="listBanks()" class="mdc-button mdc-button--raised">Show Banks</button>
+    </section>
+
+    <section id="content-banks"></section>
+    <section id="content-customers"></section>
+    <section id="content-accounts"></section>
+    <section id="content-transactions"></section>
+    <div id="content-popup"></div>
+</main>
+<input id="customerId" value="0" />
+<script src="scripts.js"></script>
 </body>
 </html>
