@@ -1,0 +1,13 @@
+C:\dev\bank-objects-part1\WebApi\bin\Debug\netcoreapp2.0\WebApi.deps.json
+C:\dev\bank-objects-part1\WebApi\bin\Debug\netcoreapp2.0\WebApi.runtimeconfig.json
+C:\dev\bank-objects-part1\WebApi\bin\Debug\netcoreapp2.0\WebApi.runtimeconfig.dev.json
+C:\dev\bank-objects-part1\WebApi\bin\Debug\netcoreapp2.0\WebApi.dll
+C:\dev\bank-objects-part1\WebApi\bin\Debug\netcoreapp2.0\WebApi.pdb
+C:\dev\bank-objects-part1\WebApi\obj\Debug\netcoreapp2.0\WebApi.csprojResolveAssemblyReference.cache
+C:\dev\bank-objects-part1\WebApi\obj\Debug\netcoreapp2.0\WebApi.csproj.CoreCompileInputs.cache
+C:\dev\bank-objects-part1\WebApi\obj\Debug\netcoreapp2.0\WebApi.AssemblyInfoInputs.cache
+C:\dev\bank-objects-part1\WebApi\obj\Debug\netcoreapp2.0\WebApi.AssemblyInfo.cs
+C:\dev\bank-objects-part1\WebApi\obj\Debug\netcoreapp2.0\WebApi.dll
+C:\dev\bank-objects-part1\WebApi\obj\Debug\netcoreapp2.0\WebApi.pdb
+C:\dev\bank-objects-part1\WebApi\bin\Debug\netcoreapp2.0\BankDB.dll
+C:\dev\bank-objects-part1\WebApi\bin\Debug\netcoreapp2.0\BankDB.pdb
