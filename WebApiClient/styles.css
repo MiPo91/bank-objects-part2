@@ -1,0 +1,29 @@
+#customerId {
+    display:    none;
+}
+
+ul span {
+    width: 200px;
+}
+
+ul button {
+    margin-right: 5px;
+}
+
+#content-popup div, #content-popup button {
+    margin-right: 5px;
+}
+
+#content-popup {
+    position: fixed;
+    top:    50%;
+    left:   50%;
+    transform: translate(-50%, -50%);
+    background: #f5f5f5;
+    display:    none;
+}
+
+.show {
+    display: block!important;
+    padding: 0px 10px 10px 10px;
+}
